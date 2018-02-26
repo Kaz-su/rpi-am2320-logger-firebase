@@ -21,8 +21,10 @@ $ git clone git@github.com:Kaz-su/rpi-am2320-logger-firebase.git
 ```
 
 ## Usage
-I using this like below
+First, connect pi to AM2320.
+![connection](https://github.com/Kaz-su/rpi-am2320-logger-firebase/blob/master/pi3_am2320.jpg)
 
+Run script.
 ```
 nohup python logger.py &
 ```
